@@ -1,5 +1,3 @@
-// define global vairables
-
 
 
 // define function that produces a choice (RPS) for the computer
@@ -18,7 +16,8 @@ function playerPlay() {
 
 
 
-// compare the user's response to the computer's response and determine the winner
+// compare the user's response to the computer's response 
+// and determine the winner
 function playRound(playerSelection, computerSelection) {
     let player = playerSelection.toLowerCase();
     let computer = computerSelection.toLowerCase();
@@ -42,11 +41,6 @@ function playRound(playerSelection, computerSelection) {
     }
     return result;
 }
-
-
-
-// handles a single round of play
-
 
 
 
