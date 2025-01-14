@@ -1,0 +1,38 @@
+/* Center all content */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Make things bigger */
+h1, h2, p, .result, .score {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Colors for winning and losing */
+
+.win {
+    color: green;
+    animation: winEffect 1s infinite alternate;
+}
+
+@keyframes winEffect {
+    0% {
+        color: green;
+    }
+    100% {
+        color: lime;
+    }
+}
+
+
+.lose {
+    color: red;
+}
